@@ -14,7 +14,7 @@ https://help.github.com/articles/creating-a-personal-access-token-for-the-comman
 ```
 * Now let's set token in `.profile` page so that it can be available in script code. Do the following at the command prompt
 ```
-echo set GITHUB_TOKEN='personal-access-token-here' >> ~/.profile
+echo export GITHUB_TOKEN='personal-access-token-here' >> ~/.profile
 ```
 * Run `source ~/.profile` if you want to update the current shell with the changes
 
