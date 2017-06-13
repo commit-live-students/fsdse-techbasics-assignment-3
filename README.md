@@ -8,7 +8,7 @@
 
 * We will be using this assignment to protect our API keys is what I like to call 'backside-secrets'. We will create an environment variable on our server that contains the API key that we want to protect. Whenever we need to access the key, we will use environment variable in code
 
-* Follow this article and get the personal access token for github
+* Follow this article and get the personal access token for Github
 ```
 https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
 ```
@@ -26,4 +26,4 @@ echo export GITHUB_TOKEN='personal-access-token-here' >> ~/.profile
 import os
 print os.environ['GITHUB_TOKEN']
 ```
-* Run your file using python `python test_env.py`. It should print your previously set github token.
+* Run your file using python `python test_env.py`. It should print your previously set Github token.
